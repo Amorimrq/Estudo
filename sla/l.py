@@ -1,8 +1,10 @@
-idade = int(input("Diga sua idade: "))
 
-if idade >= 18 and idade < 60:
-    print("Adulto")
-elif idade >= 60:
-    print("Idoso")
-else:
-    print("Menor de idade")
+print(f'{"FORCA":=^20}')
+
+while True:
+    n = int(input('numero: '))
+    if n % 2 != 0:
+        print('impar')
+        break
+    else:
+        print('par')

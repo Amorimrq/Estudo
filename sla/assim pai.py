@@ -9,3 +9,5 @@ for numero in numeros:
         print(f"{numero} x {i} = {numero * i}")
     print()
 print("FIM DA TABUADA")
+
+
